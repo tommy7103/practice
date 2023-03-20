@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix=”og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#”>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sneakers(スニーカーズ)はスニーカーを愛する人々のためのスニーカー専門のニュースメディアです">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Sneakers | スニーカー専門のニュースメディアSneakers(スニーカーズ)</title>
+    <meta property=”og:type” content="website">
+    <meta property=”og:url” content=”https://nakatomiharuka.com/coding_reproduction/index.html”>
+    <meta property=”og:image” content=”https://nakatomiharuka.com/coding_reproduction/img/logo.svg”>
+    <meta property=”og:title” content=”Sneaker|スニーカー専門のニュースメディアSneakers(スニーカーズ)”>
+    <meta property=”og:description” content=”Sneakers(スニーカーズ)はスニーカーを愛する人々のためのスニーカー専門のニュースメディアです”>
+    <meta property=”og:locale” content=”ja”>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header__container">
+            <div class="header__image"><img src="img/logo.svg" alt="ロゴ" width="175" height="40"></div>
+            <input type="checkbox" name="ham-btn" id="ham-btn">
+            <label class="ham-open" for="ham-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div id="js-header" class="header__nav_container">
+                <div class="header__nav">
+                    <ul class="nav_container">
+                        <li class="nav_items"><a class="js-scroll" data-target="main__pick-up">PICK UP</a></li>
+                        <li class="nav_items"><a class="js-scroll" data-target="main__feature">FEATURE</a></li>
+                        <li class="nav_items"><a class="js-scroll" data-target="main__contact">CONTACT</a></li>
+                    </ul>
+                    <ul class="nav_container nav_sns">
+                        <li class="nav_items"><a href="#">Twitter</a></li>
+                        <li class="nav_items"><a href="#">facebook</a></li>
+                        <li class="nav_items"><a href="#">instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main__visual_container">
+            <div class="visual_video">
+                <video src="/video/sneaker_video.mp4" loop autoplay muted playsinline></video>
+            </div>
+        </div>
+        <section id="main__pick-up" class="main__contents main__pick-up">
+            <h1 class="main__head">PICK UP</h1>
+            <div class="carousel_container" id="js-carousel">
+                <ul id="js-contents">
+                    <li id="js-image"><img src="/img/pickup1.jpg" alt="白いスニーカー"></li>
+                    <li><img src="/img/pickup2.jpg" alt="青空と白いスニーカー"></li>
+                    <li><img src="/img/pickup3.jpg" alt="黄色いスニーカー"></li>
+                    <li><img src="/img/pickup4.jpg" alt="白とオレンジ2色のスニーカー（真横）"></li>
+                    <li><img src="/img/pickup5.jpg" alt="白とオレンジ2色のスニーカー（斜め）"></li>
+                    <li><img src="/img/pickup6.jpg" alt="オレンジと青と黄色のスニーカー"></li>
+                    <li><img src="/img/pickup7.jpg" alt="赤い靴紐に水色とオレンジと白のスニーカー"></li>
+                    <li><img src="/img/pickup8.jpg" alt="白と赤と黒3色のスニーカー"></li>
+                    <li><img src="/img/pickup9.jpg" alt="白地に赤と黒のラインの入ったスニーカー"></li>
+                </ul>
+                <span id="arrow-prev" class="arrow-prev"></span>
+                <span id="arrow-next" class="arrow-next"></span>
+            </div>
+        </section>
+        <section id="main__feature" class="main__contents main__feature">
+            <h1 class="main__head">FEATURE</h1>
+            <ul class="feature_grid_container">
+                <li class="feature_items">
+                    <img src="img/feature1.jpg" alt="水色のスニーカー">
+                    <div class="feature_items_text">
+                        <span>category</span>
+                        <h2>テキストテキストテキストテキストテキストテキストテキストテキスト</h2>
+                        <span>XXXX.XX.XX</span>
+                    </div>
+                </li>
+                <li class="feature_items">
+                    <img src="img/feature2.jpg" alt="水色の背景に黒のスニーカー">
+                    <div class="feature_items_text">
+                        <span>category</span>
+                        <h2>テキストテキストテキストテキストテキストテキストテキストテキスト</h2>
+                        <span>XXXX.XX.XX</span>
+                    </div>
+                </li>
+                <li class="feature_items">
+                    <img src="img/feature3.jpg" alt="黒色の背景に白のスニーカー">
+                    <div class="feature_items_text">
+                        <span>category</span>
+                        <h2>テキストテキストテキストテキストテキストテキストテキストテキスト</h2>
+                        <span>XXXX.XX.XX</span>
+                    </div>
+                </li>
+                <li class="feature_items">
+                    <img src="img/feature4.jpg" alt="男性がオレンジのスニーカーを持っている">
+                    <div class="feature_items_text">
+                        <span>category</span>
+                        <h2>テキストテキストテキストテキストテキストテキストテキストテキスト</h2>
+                        <span>XXXX.XX.XX</span>
+                    </div>
+                </li>
+                <li class="feature_items">
+                    <img src="img/feature5.jpg" alt="青色の背景に白いスニーカー">
+                    <div class="feature_items_text">
+                        <span>category</span>
+                        <h2>テキストテキストテキストテキストテキストテキストテキストテキスト</h2>
+                        <span>XXXX.XX.XX</span>
+                    </div>
+                </li>
+                <li class="feature_items">
+                    <img src="img/feature6.jpg" alt="赤いスニーカーと白いズボンを履いた人">
+                    <div class="feature_items_text">
+                        <span>category</span>
+                        <h2>テキストテキストテキストテキストテキストテキストテキストテキスト</h2>
+                        <span>XXXX.XX.XX</span>
+                    </div>
+                </li>
+                <li class="feature_items">
+                    <img src="img/feature7.jpg" alt="ベロア素材の布の上に水色のハイカットスニーカー">
+                    <div class="feature_items_text">
+                        <span>category</span>
+                        <h2>テキストテキストテキストテキストテキストテキストテキストテキスト</h2>
+                        <span>XXXX.XX.XX</span>
+                    </div>
+                </li>
+                <li class="feature_items">
+                    <img src="img/feature8.jpg" alt="水溜まりを歩く白いスニーカーを履いた人">
+                    <div class="feature_items_text">
+                        <span>category</span>
+                        <h2>テキストテキストテキストテキストテキストテキストテキストテキスト</h2>
+                        <span>XXXX.XX.XX</span>
+                    </div>
+                </li>
+                <li class="feature_items">
+                    <img src="img/feature9.jpg" alt="白いスニーカーのタンと靴紐">
+                    <div class="feature_items_text">
+                        <span>category</span>
+                        <h2>テキストテキストテキストテキストテキストテキストテキストテキスト</h2>
+                        <span>XXXX.XX.XX</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="main__contact" class="main__contents main__contact">
+            <h1 class="main__head">CONTACT</h1>
+            <div class="contact_flex_container">
+                <section class="contact_intro_container">
+                    <h2>テキストテキストテキスト</h2>
+                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </section>
+                <form class="contact_form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="mail">Mail:</label>
+                    <input type="text" id="mail" name="mail" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="textarea" cols="30" rows="10" required></textarea>
+                    <input class="submit-btn" type="submit" value="SEND">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer><span>&copy; Sneakers</span></footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
