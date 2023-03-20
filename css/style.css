@@ -249,6 +249,7 @@ main .main__pick-up .carousel_container .arrow-next::before {
 main .main__feature {
   width: 100%;
   padding-top: 110px;
+  padding-bottom: 60px;
   overflow: hidden;
 }
 main .main__feature .feature_grid_container {
